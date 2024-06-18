@@ -588,7 +588,7 @@ def expand_events(  # type:ignore
                     right_expand=right_expand,
                     freq_as_period=freq_as_period,
                 )
-                for _, s in events.iteritems()
+                for _, s in events.items()
             ],
             axis=1,
         )  # type: pd.DataFrame
